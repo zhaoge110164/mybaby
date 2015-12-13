@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>裙裙博客</title>
+    <!--fullpage-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--自定义css-->
+    <link href="css/index.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--导航栏开始-->
+<nav class="navbar navbar-inverse  navbar-fixed-top" id="mynav">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header ">
+            <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          <!--  <img src="img/myicon.jpg" class="navbar-brand " id="logo"/>-->
+            <a class="navbar-brand active" href="#" id="nav-main"><span class="glyphicon glyphicon-home"></span></a>
+            <p class="navbar-text">俊俊DE博客</p>
+            <p class="navbar-text" id="past-time"></p>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="#">相册<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">日志</a></li>
+                <li><a href="#">留言板</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-th" aria-hidden="true"></span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!--导航栏结束-->
+<!--fullpag结构开始-->
+<div id="fullpage">
+    <!--第一页开始-->
+    <div class="section" id="section-1">
+        <div>
+        <div class="container"id="section-1-contend">
+        <div class="row" id="section-1-content">
+         <div class="col-md-12"></div>
+            <h3>2015-11-18 20点33分</h3>
+            <p>产房折腾他妈妈19个小时后，他来到这个世界上。。。</p>
+            <p>大名：<span>赵英珺</span> 小名：俊俊</p>
+            <p>珺,美玉也。――金·韩道昭《改并四声篇海》</p>
+            <p> 珺,雕琢之美玉 ――《新华字典》</p>
+        </div>
+        </div>
+        <div id="section-1-pgup">
+            <button type="button" class="btn " id="gopage2">
+               <a href="#page2"> <h1><span class="glyphicon glyphicon-menu-down"></span></h1></a>
+            </button>
+        </div>
+            </div>
+    </div>
+    <div class="section" id="section-2" >第二页
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        </div>
+    <div class="section">
+    </div>
+    <div class="section">第四页</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!--fullpagejs-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.js"></script>
+<!--move.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/move.js/0.5.0/move.min.js"></script>
+<!--引入自定义js-->
+<script src="js/index-js.js"></script>
+
+</body>
+<script>
+
+</script>
+</html>
